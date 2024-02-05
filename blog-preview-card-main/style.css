@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow-color: hsl(47, 88%, 63%);
+  --white-color: hsl(0, 0%, 100%);
+  --grey-color:hsl(0, 0%, 50%);
+  --black-color:hsl(0, 0%, 7%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap');
+
+body {
+  background-color: var(--yellow-color);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Figtree', sans-serif;
+  font-size: 1rem;
+}
+
+.container {
+  background-color: var(--white-color);
+  padding: 1rem;
+  border: 1px black solid;
+  border-radius: 15px;
+  box-shadow: 7px 7px 0px rgba(0, 0, 0, 1);
+  width: 375px;
+}
+
+.img-1 {
+  border-radius: 10px;
+}
+
+header > h1 {
+  margin-top: 1rem;
+  color: var(--black-color);
+  background-color: var(--yellow-color);
+  width: 22%;
+  padding: 7px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+h2 {
+  color:var(--black-color);
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+.principal h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.principal h3:hover{
+  color: var(--yellow-color);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.principal p {
+  color: var(--grey-color);
+  margin: 1rem 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.autor {
+  margin: 1.4rem 0 0.4rem 0;
+}
+
+.autor img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 0.8rem;
+}
+
+.autor p {
+  font-weight: 600;
+  font-size: 14px;
+}
